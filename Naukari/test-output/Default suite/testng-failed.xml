@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Default suite]">
+  <test name="Default test(failed)">
+    <classes>
+      <class name="com_naukari_qa_Test.Homepagetest">
+        <methods>
+          <include name="LogoutTest"/>
+          <include name="ViewandUpdateButtonTest"/>
+          <include name="tearDown"/>
+          <include name="Setup"/>
+          <include name="Updatetexttest"/>
+          <include name="EditLink"/>
+        </methods>
+      </class> <!-- com_naukari_qa_Test.Homepagetest -->
+    </classes>
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->

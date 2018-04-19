@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Naukaritest" parallel="tests" thread-count="2">
+<listeners>
+		<listener class-name="com_naukari_qa_ExtendReport.ExtentReporterNG" />
+	</listeners>
+<test name="NaukariTest">
+			<classes>
+			<class name="com_naukari_qa_Test.LoginpageTest" />
+			<class name="com_naukari_qa_Test.Naukarihomepagetest" />
+			
+		</classes>
+	</test>
+</suite>
