@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="FBtest" parallel="tests" thread-count="2">
+<listeners>
+		<listener class-name="com_FB_qa_ExtendReport.ExtentReporterNG" />
+	</listeners>
+<test name="FBtestcases">
+			<classes>
+			<class name="Com_FB_Qa_Test.HomePageTest" />
+			<class name="Com_FB_Qa_Test.LoginPageTest" />
+			
+		</classes>
+	</test>
+</suite>
