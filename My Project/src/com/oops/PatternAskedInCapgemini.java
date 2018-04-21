@@ -1,4 +1,4 @@
-package SimpleProgrammes;
+package com.oops;
 
 public class PatternAskedInCapgemini
 {
