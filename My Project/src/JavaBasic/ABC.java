@@ -1,9 +1,9 @@
 package JavaBasic;
 
-public class ABC extends XYZ
+//public class ABC extends XYZ
 {
 	
-	 final ABC()// constructor can not be final
+	 //static ABC()// constructor can not be final  and static
 	{
 		
 	}
