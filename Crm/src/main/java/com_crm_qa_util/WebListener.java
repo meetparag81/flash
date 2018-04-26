@@ -7,11 +7,10 @@ import
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.events.WebDriverEventListener;
-import com_crm_qa_util.Test_Util;
 
 import com_crm_qa_base.TestBase;
 
-public class WebEventListener extends TestBase implements WebDriverEventListener 
+public class WebListener extends TestBase implements WebDriverEventListener 
 {
 
 	public void beforeNavigateTo(String url, WebDriver driver) {

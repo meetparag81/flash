@@ -1,12 +1,10 @@
 package com_crm_qa_test;
 
-import org.openqa.selenium.support.PageFactory;
 import org.testng.Assert;
-import org.testng.annotations.AfterClass;
 import org.testng.annotations.AfterMethod;
-import org.testng.annotations.BeforeClass;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
+
 import com_crm_qa_base.TestBase;
 import com_crm_qa_pages.Contactspage;
 import com_crm_qa_pages.HomePage;
