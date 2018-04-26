@@ -87,11 +87,12 @@ public class TestUtil extends TestBase implements ITestListener
 	}
 	driver.switchTo().window(parent);
 	}
-	 public static void Takescreenshot(WebDriver driver, String Screenshotname) throws Exception
+	 public static String Takescreenshot(WebDriver driver, String Screenshotname) throws Exception
 	 {
 		File src =((TakesScreenshot)driver).getScreenshotAs(OutputType.FILE);
 		String currdir = System.getProperty("user.dir");
 		FileUtils.copyFile(src, new File(currdir+ "/screenshotsfail/"+Screenshotname + ".png"));
+		return Screenshotname;
 	 }
 
 	public void onFinish(ITestContext result) {

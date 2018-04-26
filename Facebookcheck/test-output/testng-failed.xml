@@ -8,6 +8,7 @@
     <classes>
       <class name="Com_FB_Qa_Test.LoginPageTest">
         <methods>
+          <include name="givecredentials"/>
           <include name="SetUp"/>
           <include name="tearDown"/>
           <include name="LoginPageTitletest"/>
@@ -17,6 +18,8 @@
         <methods>
           <include name="LogoutTitle"/>
           <include name="driverclose"/>
+          <include name="clickonNavigation"/>
+          <include name="UsernameonPageTest"/>
           <include name="Logout"/>
           <include name="setup"/>
         </methods>

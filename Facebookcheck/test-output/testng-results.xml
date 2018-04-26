@@ -1,86 +1,136 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="3" ignored="0" total="6" passed="3">
+<testng-results skipped="6" failed="0" ignored="0" total="6" passed="0">
   <reporter-output>
   </reporter-output>
-  <suite name="FBtest" duration-ms="251959" started-at="2018-03-25T17:15:07Z" finished-at="2018-03-25T17:19:19Z">
+  <suite name="FBtest" duration-ms="94" started-at="2018-04-25T16:57:11Z" finished-at="2018-04-25T16:57:11Z">
     <groups>
     </groups>
-    <test name="FBtestcases" duration-ms="251959" started-at="2018-03-25T17:15:07Z" finished-at="2018-03-25T17:19:19Z">
+    <test name="FBtestcases" duration-ms="94" started-at="2018-04-25T16:57:11Z" finished-at="2018-04-25T16:57:11Z">
       <class name="Com_FB_Qa_Test.HomePageTest">
-        <test-method status="PASS" signature="setup()[pri:0, instance:Com_FB_Qa_Test.HomePageTest@3abbfa04]" name="setup" is-config="true" duration-ms="48331" started-at="2018-03-25T22:45:07Z" finished-at="2018-03-25T22:45:55Z">
+        <test-method status="FAIL" signature="setup()[pri:0, instance:Com_FB_Qa_Test.HomePageTest@31ef45e3]" name="setup" is-config="true" duration-ms="7" started-at="2018-04-25T22:27:11Z" finished-at="2018-04-25T22:27:11Z">
+          <exception class="java.lang.NullPointerException">
+            <full-stacktrace>
+              <![CDATA[java.lang.NullPointerException
+	at Com_FB_QA_Base.TestBase.initalization(TestBase.java:46)
+	at Com_FB_Qa_Test.HomePageTest.setup(HomePageTest.java:29)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:108)
+	at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:523)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:224)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:599)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:869)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1193)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:126)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:744)
+	at org.testng.TestRunner.run(TestRunner.java:602)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:380)
+	at org.testng.SuiteRunner.access$000(SuiteRunner.java:39)
+	at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:414)
+	at org.testng.internal.thread.ThreadUtil$1.call(ThreadUtil.java:52)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NullPointerException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method status="PASS" signature="UsernameonPageTest()[pri:1, instance:Com_FB_Qa_Test.HomePageTest@3abbfa04]" name="UsernameonPageTest" duration-ms="1179" started-at="2018-03-25T22:45:55Z" finished-at="2018-03-25T22:45:57Z">
+        <test-method status="SKIP" signature="UsernameonPageTest()[pri:1, instance:Com_FB_Qa_Test.HomePageTest@31ef45e3]" name="UsernameonPageTest" duration-ms="1" started-at="2018-04-25T22:27:11Z" finished-at="2018-04-25T22:27:11Z">
+          <exception class="java.lang.NullPointerException">
+            <full-stacktrace>
+              <![CDATA[java.lang.NullPointerException
+	at Com_FB_QA_Base.TestBase.initalization(TestBase.java:46)
+	at Com_FB_Qa_Test.HomePageTest.setup(HomePageTest.java:29)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:108)
+	at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:523)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:224)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:599)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:869)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1193)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:126)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:744)
+	at org.testng.TestRunner.run(TestRunner.java:602)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:380)
+	at org.testng.SuiteRunner.access$000(SuiteRunner.java:39)
+	at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:414)
+	at org.testng.internal.thread.ThreadUtil$1.call(ThreadUtil.java:52)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NullPointerException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- UsernameonPageTest -->
-        <test-method status="PASS" signature="driverclose()[pri:0, instance:Com_FB_Qa_Test.HomePageTest@3abbfa04]" name="driverclose" is-config="true" duration-ms="4633" started-at="2018-03-25T22:45:57Z" finished-at="2018-03-25T22:46:01Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- driverclose -->
-        <test-method status="PASS" signature="setup()[pri:0, instance:Com_FB_Qa_Test.HomePageTest@3abbfa04]" name="setup" is-config="true" duration-ms="33051" started-at="2018-03-25T22:46:24Z" finished-at="2018-03-25T22:46:57Z">
+        <test-method status="SKIP" signature="setup()[pri:0, instance:Com_FB_Qa_Test.HomePageTest@31ef45e3]" name="setup" is-config="true" duration-ms="0" started-at="2018-04-25T22:27:11Z" finished-at="2018-04-25T22:27:11Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method status="PASS" signature="clickonNavigation()[pri:2, instance:Com_FB_Qa_Test.HomePageTest@3abbfa04]" name="clickonNavigation" duration-ms="733" started-at="2018-03-25T22:46:57Z" finished-at="2018-03-25T22:46:58Z">
+        <test-method status="SKIP" signature="clickonNavigation()[pri:2, instance:Com_FB_Qa_Test.HomePageTest@31ef45e3]" name="clickonNavigation" duration-ms="0" started-at="2018-04-25T22:27:11Z" finished-at="2018-04-25T22:27:11Z">
+          <exception class="java.lang.NullPointerException">
+            <full-stacktrace>
+              <![CDATA[java.lang.NullPointerException
+	at Com_FB_QA_Base.TestBase.initalization(TestBase.java:46)
+	at Com_FB_Qa_Test.HomePageTest.setup(HomePageTest.java:29)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:108)
+	at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:523)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:224)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:599)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:869)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1193)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:126)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:744)
+	at org.testng.TestRunner.run(TestRunner.java:602)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:380)
+	at org.testng.SuiteRunner.access$000(SuiteRunner.java:39)
+	at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:414)
+	at org.testng.internal.thread.ThreadUtil$1.call(ThreadUtil.java:52)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NullPointerException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- clickonNavigation -->
-        <test-method status="PASS" signature="driverclose()[pri:0, instance:Com_FB_Qa_Test.HomePageTest@3abbfa04]" name="driverclose" is-config="true" duration-ms="2228" started-at="2018-03-25T22:46:58Z" finished-at="2018-03-25T22:47:00Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- driverclose -->
-        <test-method status="PASS" signature="setup()[pri:0, instance:Com_FB_Qa_Test.HomePageTest@3abbfa04]" name="setup" is-config="true" duration-ms="35347" started-at="2018-03-25T22:47:34Z" finished-at="2018-03-25T22:48:09Z">
+        <test-method status="SKIP" signature="setup()[pri:0, instance:Com_FB_Qa_Test.HomePageTest@31ef45e3]" name="setup" is-config="true" duration-ms="0" started-at="2018-04-25T22:27:11Z" finished-at="2018-04-25T22:27:11Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method status="FAIL" signature="Logout()[pri:3, instance:Com_FB_Qa_Test.HomePageTest@3abbfa04]" name="Logout" duration-ms="30357" started-at="2018-03-25T22:48:09Z" finished-at="2018-03-25T22:48:39Z">
-          <exception class="org.openqa.selenium.NoSuchElementException">
-            <message>
-              <![CDATA[Unable to locate element: //span[contains (text(), 'Log Out')]
-For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
-Build info: version: '3.5.3', revision: 'a88d25fe6b', time: '2017-08-29T12:42:44.417Z'
-System info: host: 'PARAG-PC', ip: '192.168.1.206', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_151'
-Driver info: org.openqa.selenium.firefox.FirefoxDriver
-Capabilities [{moz:profile=C:\Users\Parag\AppData\Local\Temp\rust_mozprofile.2zoWJfr9pmwk, rotatable=false, timeouts={implicit=0, pageLoad=300000, script=30000}, pageLoadStrategy=normal, platform=XP, specificationLevel=0, moz:accessibilityChecks=false, acceptInsecureCerts=false, browserVersion=54.0.1, platformVersion=6.1, moz:processID=7304, browserName=firefox, javascriptEnabled=true, platformName=XP}]
-Session ID: d61e920f-4773-49b7-bb39-091d927f2d04
-*** Element info: {Using=xpath, value=//span[contains (text(), 'Log Out')]}]]>
-            </message>
+        <test-method status="SKIP" signature="Logout()[pri:3, instance:Com_FB_Qa_Test.HomePageTest@31ef45e3]" name="Logout" duration-ms="0" started-at="2018-04-25T22:27:11Z" finished-at="2018-04-25T22:27:11Z">
+          <exception class="java.lang.NullPointerException">
             <full-stacktrace>
-              <![CDATA[org.openqa.selenium.NoSuchElementException: Unable to locate element: //span[contains (text(), 'Log Out')]
-For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
-Build info: version: '3.5.3', revision: 'a88d25fe6b', time: '2017-08-29T12:42:44.417Z'
-System info: host: 'PARAG-PC', ip: '192.168.1.206', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_151'
-Driver info: org.openqa.selenium.firefox.FirefoxDriver
-Capabilities [{moz:profile=C:\Users\Parag\AppData\Local\Temp\rust_mozprofile.2zoWJfr9pmwk, rotatable=false, timeouts={implicit=0, pageLoad=300000, script=30000}, pageLoadStrategy=normal, platform=XP, specificationLevel=0, moz:accessibilityChecks=false, acceptInsecureCerts=false, browserVersion=54.0.1, platformVersion=6.1, moz:processID=7304, browserName=firefox, javascriptEnabled=true, platformName=XP}]
-Session ID: d61e920f-4773-49b7-bb39-091d927f2d04
-*** Element info: {Using=xpath, value=//span[contains (text(), 'Log Out')]}
-	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
-	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
-	at java.lang.reflect.Constructor.newInstance(Unknown Source)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:185)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:120)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:164)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:82)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:646)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:416)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:518)
-	at org.openqa.selenium.By$ByXPath.findElement(By.java:361)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:408)
-	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
-	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
-	at com.sun.proxy.$Proxy10.click(Unknown Source)
-	at com_FB_Qa_pages.HomePage.clickonLogout(HomePage.java:44)
-	at Com_FB_Qa_Test.HomePageTest.Logout(HomePageTest.java:58)
+              <![CDATA[java.lang.NullPointerException
+	at Com_FB_QA_Base.TestBase.initalization(TestBase.java:46)
+	at Com_FB_Qa_Test.HomePageTest.setup(HomePageTest.java:29)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
 	at java.lang.reflect.Method.invoke(Unknown Source)
 	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:108)
-	at org.testng.internal.Invoker.invokeMethod(Invoker.java:661)
+	at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:523)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:224)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:599)
 	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:869)
 	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1193)
 	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:126)
@@ -97,38 +147,28 @@ Session ID: d61e920f-4773-49b7-bb39-091d927f2d04
 	at java.lang.Thread.run(Unknown Source)
 ]]>
             </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          </exception> <!-- java.lang.NullPointerException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Logout -->
-        <test-method status="PASS" signature="driverclose()[pri:0, instance:Com_FB_Qa_Test.HomePageTest@3abbfa04]" name="driverclose" is-config="true" duration-ms="1569" started-at="2018-03-25T22:48:39Z" finished-at="2018-03-25T22:48:41Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- driverclose -->
-        <test-method status="PASS" signature="setup()[pri:0, instance:Com_FB_Qa_Test.HomePageTest@3abbfa04]" name="setup" is-config="true" duration-ms="34107" started-at="2018-03-25T22:48:41Z" finished-at="2018-03-25T22:49:15Z">
+        <test-method status="SKIP" signature="setup()[pri:0, instance:Com_FB_Qa_Test.HomePageTest@31ef45e3]" name="setup" is-config="true" duration-ms="0" started-at="2018-04-25T22:27:11Z" finished-at="2018-04-25T22:27:11Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method status="FAIL" signature="LogoutTitle()[pri:4, instance:Com_FB_Qa_Test.HomePageTest@3abbfa04]" name="LogoutTitle" duration-ms="2022" started-at="2018-03-25T22:49:15Z" finished-at="2018-03-25T22:49:17Z">
-          <exception class="java.lang.AssertionError">
-            <message>
-              <![CDATA[expected [Logout] but found [(21) Facebook]]]>
-            </message>
+        <test-method status="SKIP" signature="LogoutTitle()[pri:4, instance:Com_FB_Qa_Test.HomePageTest@31ef45e3]" name="LogoutTitle" duration-ms="0" started-at="2018-04-25T22:27:11Z" finished-at="2018-04-25T22:27:11Z">
+          <exception class="java.lang.NullPointerException">
             <full-stacktrace>
-              <![CDATA[java.lang.AssertionError: expected [Logout] but found [(21) Facebook]
-	at org.testng.Assert.fail(Assert.java:93)
-	at org.testng.Assert.failNotEquals(Assert.java:512)
-	at org.testng.Assert.assertEqualsImpl(Assert.java:134)
-	at org.testng.Assert.assertEquals(Assert.java:115)
-	at org.testng.Assert.assertEquals(Assert.java:189)
-	at org.testng.Assert.assertEquals(Assert.java:199)
-	at Com_FB_Qa_Test.HomePageTest.LogoutTitle(HomePageTest.java:67)
+              <![CDATA[java.lang.NullPointerException
+	at Com_FB_QA_Base.TestBase.initalization(TestBase.java:46)
+	at Com_FB_Qa_Test.HomePageTest.setup(HomePageTest.java:29)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
 	at java.lang.reflect.Method.invoke(Unknown Source)
 	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:108)
-	at org.testng.internal.Invoker.invokeMethod(Invoker.java:661)
+	at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:523)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:224)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:599)
 	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:869)
 	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1193)
 	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:126)
@@ -145,40 +185,26 @@ Session ID: d61e920f-4773-49b7-bb39-091d927f2d04
 	at java.lang.Thread.run(Unknown Source)
 ]]>
             </full-stacktrace>
-          </exception> <!-- java.lang.AssertionError -->
+          </exception> <!-- java.lang.NullPointerException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- LogoutTitle -->
-        <test-method status="PASS" signature="driverclose()[pri:0, instance:Com_FB_Qa_Test.HomePageTest@3abbfa04]" name="driverclose" is-config="true" duration-ms="1667" started-at="2018-03-25T22:49:17Z" finished-at="2018-03-25T22:49:19Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- driverclose -->
       </class> <!-- Com_FB_Qa_Test.HomePageTest -->
       <class name="Com_FB_Qa_Test.LoginPageTest">
-        <test-method status="PASS" signature="SetUp()[pri:0, instance:Com_FB_Qa_Test.LoginPageTest@57fffcd7]" name="SetUp" is-config="true" duration-ms="21115" started-at="2018-03-25T22:46:01Z" finished-at="2018-03-25T22:46:22Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- SetUp -->
-        <test-method status="FAIL" signature="LoginPageTitletest()[pri:1, instance:Com_FB_Qa_Test.LoginPageTest@57fffcd7]" name="LoginPageTitletest" duration-ms="42" started-at="2018-03-25T22:46:22Z" finished-at="2018-03-25T22:46:22Z">
-          <exception class="java.lang.AssertionError">
-            <message>
-              <![CDATA[expected [Facebook � log in or sign up] but found [Facebook – log in or sign up]]]>
-            </message>
+        <test-method status="FAIL" signature="SetUp()[pri:0, instance:Com_FB_Qa_Test.LoginPageTest@598067a5]" name="SetUp" is-config="true" duration-ms="1" started-at="2018-04-25T22:27:11Z" finished-at="2018-04-25T22:27:11Z">
+          <exception class="java.lang.NullPointerException">
             <full-stacktrace>
-              <![CDATA[java.lang.AssertionError: expected [Facebook � log in or sign up] but found [Facebook – log in or sign up]
-	at org.testng.Assert.fail(Assert.java:93)
-	at org.testng.Assert.failNotEquals(Assert.java:512)
-	at org.testng.Assert.assertEqualsImpl(Assert.java:134)
-	at org.testng.Assert.assertEquals(Assert.java:115)
-	at org.testng.Assert.assertEquals(Assert.java:189)
-	at org.testng.Assert.assertEquals(Assert.java:199)
-	at Com_FB_Qa_Test.LoginPageTest.LoginPageTitletest(LoginPageTest.java:35)
+              <![CDATA[java.lang.NullPointerException
+	at Com_FB_QA_Base.TestBase.initalization(TestBase.java:46)
+	at Com_FB_Qa_Test.LoginPageTest.SetUp(LoginPageTest.java:27)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
 	at java.lang.reflect.Method.invoke(Unknown Source)
 	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:108)
-	at org.testng.internal.Invoker.invokeMethod(Invoker.java:661)
+	at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:523)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:224)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:599)
 	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:869)
 	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1193)
 	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:126)
@@ -195,26 +221,82 @@ Session ID: d61e920f-4773-49b7-bb39-091d927f2d04
 	at java.lang.Thread.run(Unknown Source)
 ]]>
             </full-stacktrace>
-          </exception> <!-- java.lang.AssertionError -->
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- LoginPageTitletest -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:Com_FB_Qa_Test.LoginPageTest@57fffcd7]" name="tearDown" is-config="true" duration-ms="1631" started-at="2018-03-25T22:46:23Z" finished-at="2018-03-25T22:46:24Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="SetUp()[pri:0, instance:Com_FB_Qa_Test.LoginPageTest@57fffcd7]" name="SetUp" is-config="true" duration-ms="18825" started-at="2018-03-25T22:47:00Z" finished-at="2018-03-25T22:47:19Z">
+          </exception> <!-- java.lang.NullPointerException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- SetUp -->
-        <test-method status="PASS" signature="givecredentials()[pri:2, instance:Com_FB_Qa_Test.LoginPageTest@57fffcd7]" name="givecredentials" duration-ms="12189" started-at="2018-03-25T22:47:19Z" finished-at="2018-03-25T22:47:31Z">
+        <test-method status="SKIP" signature="LoginPageTitletest()[pri:1, instance:Com_FB_Qa_Test.LoginPageTest@598067a5]" name="LoginPageTitletest" duration-ms="0" started-at="2018-04-25T22:27:11Z" finished-at="2018-04-25T22:27:11Z">
+          <exception class="java.lang.NullPointerException">
+            <full-stacktrace>
+              <![CDATA[java.lang.NullPointerException
+	at Com_FB_QA_Base.TestBase.initalization(TestBase.java:46)
+	at Com_FB_Qa_Test.LoginPageTest.SetUp(LoginPageTest.java:27)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:108)
+	at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:523)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:224)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:599)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:869)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1193)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:126)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:744)
+	at org.testng.TestRunner.run(TestRunner.java:602)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:380)
+	at org.testng.SuiteRunner.access$000(SuiteRunner.java:39)
+	at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:414)
+	at org.testng.internal.thread.ThreadUtil$1.call(ThreadUtil.java:52)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NullPointerException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LoginPageTitletest -->
+        <test-method status="SKIP" signature="SetUp()[pri:0, instance:Com_FB_Qa_Test.LoginPageTest@598067a5]" name="SetUp" is-config="true" duration-ms="0" started-at="2018-04-25T22:27:11Z" finished-at="2018-04-25T22:27:11Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SetUp -->
+        <test-method status="SKIP" signature="givecredentials()[pri:2, instance:Com_FB_Qa_Test.LoginPageTest@598067a5]" name="givecredentials" duration-ms="0" started-at="2018-04-25T22:27:11Z" finished-at="2018-04-25T22:27:11Z">
+          <exception class="java.lang.NullPointerException">
+            <full-stacktrace>
+              <![CDATA[java.lang.NullPointerException
+	at Com_FB_QA_Base.TestBase.initalization(TestBase.java:46)
+	at Com_FB_Qa_Test.LoginPageTest.SetUp(LoginPageTest.java:27)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:108)
+	at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:523)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:224)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:599)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:869)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1193)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:126)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:744)
+	at org.testng.TestRunner.run(TestRunner.java:602)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:380)
+	at org.testng.SuiteRunner.access$000(SuiteRunner.java:39)
+	at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:414)
+	at org.testng.internal.thread.ThreadUtil$1.call(ThreadUtil.java:52)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NullPointerException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- givecredentials -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:Com_FB_Qa_Test.LoginPageTest@57fffcd7]" name="tearDown" is-config="true" duration-ms="2212" started-at="2018-03-25T22:47:31Z" finished-at="2018-03-25T22:47:34Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
       </class> <!-- Com_FB_Qa_Test.LoginPageTest -->
     </test> <!-- FBtestcases -->
   </suite> <!-- FBtest -->

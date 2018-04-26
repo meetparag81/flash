@@ -27,9 +27,10 @@ public class ExtentReporterNG implements IReporter
 	private ExtentReports extent;
 
 	public void generateReport(List<XmlSuite> xmlSuites, List<ISuite> suites,
-			String outputDirectory) {
+			String outputDirectory) 
+	{
 		extent = new ExtentReports(outputDirectory + File.separator
-				+ "FB_Extent.html", true);
+				+ "FB_Extent1.html", true);
 
 		for (ISuite suite : suites) {
 			Map<String, ISuiteResult> result = suite.getResults();
@@ -47,7 +48,8 @@ public class ExtentReporterNG implements IReporter
 		extent.close();
 	}
 
-	private void buildTestNodes(IResultMap tests, LogStatus status) {
+	private void buildTestNodes(IResultMap tests, LogStatus status) 
+	{
 		ExtentTest test;
 
 		if (tests.size() > 0) {

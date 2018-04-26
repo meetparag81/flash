@@ -25,7 +25,7 @@ public class TestBase
 	    	try 
 				{
 					 prop = new Properties();
-					 FileInputStream ip = new FileInputStream("G:\\Javaprogramming\\Crm\\src\\main\\java\\com_crm_qa_config\\config.properties");
+					 FileInputStream ip = new FileInputStream("G:\\Javaprogramming\\gitrepository\\Crm\\src\\main\\java\\com_crm_qa_config\\config.properties");
 					prop.load(ip);
 				} 
 	    	catch (Exception e) 

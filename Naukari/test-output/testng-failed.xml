@@ -3,13 +3,22 @@
 <suite name="Failed suite [Default suite]">
   <test name="Default test(failed)">
     <classes>
+      <class name="com_naukari_qa_ExtendReport.ExtentReportscreenshot">
+        <methods>
+          <include name="getResult"/>
+          <include name="skipTest"/>
+          <include name="failTest"/>
+          <include name="startReport"/>
+          <include name="passTest"/>
+        </methods>
+      </class> <!-- com_naukari_qa_ExtendReport.ExtentReportscreenshot -->
       <class name="com_naukari_qa_Test.Homepagetest">
         <methods>
           <include name="LogoutTest"/>
           <include name="ViewandUpdateButtonTest"/>
-          <include name="tearDown"/>
           <include name="Setup"/>
           <include name="Updatetexttest"/>
+          <include name="verifyHomePageTitleTest"/>
           <include name="EditLink"/>
         </methods>
       </class> <!-- com_naukari_qa_Test.Homepagetest -->
