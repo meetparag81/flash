@@ -5,7 +5,7 @@ public class PrimeByPJ
 
 	public static void main(String[] args)
 	{
-		int num =100;
+		int num =87;
 		int i;
 		int count=0;
 		
