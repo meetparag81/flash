@@ -30,7 +30,11 @@ public class ExtentReporterNG implements IReporter
 			String outputDirectory) 
 	{
 		extent = new ExtentReports(outputDirectory + File.separator
+<<<<<<< HEAD
 				+ "CRM_Extent.html", true);
+=======
+				+ "CRM123_Extent.html", true);
+>>>>>>> e1bcb45040e52803a16f80632b39668fd53eb714
 
 		for (ISuite suite : suites) {
 			Map<String, ISuiteResult> result = suite.getResults();
