@@ -9,7 +9,7 @@ public class ReverseTheStringAndFindDuplicateNos
 	public static void main(String[] args) 
 	{
 		
-		String s = "parag";
+		String s = "Selenium";
 		int strcount = s.length();
 		String rev = "";
 		int i=0;
