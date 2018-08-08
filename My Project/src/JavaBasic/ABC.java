@@ -1,4 +1,4 @@
-package JavaBasic
+package JavaBasic;
 
 //public class ABC extends XYZ
 {
