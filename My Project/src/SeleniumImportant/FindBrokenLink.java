@@ -15,7 +15,7 @@ public class FindBrokenLink
 	{
 		WebDriver driver;
 		System.setProperty("webdriver.chrome.driver", "G:\\Javaprogramming\\Selenium\\Selenium Setup\\chromedriver\\for 65\\chromedriver.exe");
-		driver= new ChromeDriver();
+		
 		driver.get("https://www.google.com/");
 		List<WebElement>links= driver.findElements(By.tagName("a"));
 		System.out.println("No of links are"+ links.size());
