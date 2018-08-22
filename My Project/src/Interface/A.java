@@ -5,6 +5,6 @@ public interface A
 	
 	public void sum();
 	
-	public double Add();
+	public void Add();
 
 }

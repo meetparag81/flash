@@ -1,7 +1,6 @@
 package Interface;
 
-public class Test1ToCheck implements A, B 
-{
+public class Test1ToCheck implements A, B {
 
 	public static void main(String[] args) 
 	{
@@ -12,16 +11,15 @@ public class Test1ToCheck implements A, B
 	}
 
 	@Override
-	public  double Add()
+	public void Add()
 	{
-		return 0;
 		
 	}
 
 	@Override
 	public void sum() 
 	{
-	
+		// TODO Auto-generated method stub
 		
 	}
 
