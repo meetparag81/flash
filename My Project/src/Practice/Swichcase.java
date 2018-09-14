@@ -11,10 +11,12 @@ import org.openqa.selenium.firefox.FirefoxDriver;
 public class Swichcase
 {
 
-	public static void main(String[] args) throws InterruptedException 
-{
+	/*public static void main(String[] args)
+	{
+
+		WebDriver driver;
 		System.setProperty("webdriver.gecko.driver","G:\\Javaprogramming\\Selenium\\Selenium Setup\\geckodriver.exe");
-		WebDriver driver = new FirefoxDriver();
+		driver = new chrome
 		driver.get("https://www.google.com/");
 		
 		List<String> hrefs = new ArrayList<String>();
@@ -53,7 +55,7 @@ public class Swichcase
 				}
 				
 		}
-	}
+	}*/
 }
 
 }
