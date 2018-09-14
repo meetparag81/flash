@@ -1,9 +1,9 @@
-package JavaBasic;
+/*package JavaBasic;
 
 //public class ABC extends XYZ
 {
 	
-	 //static ABC()// constructor can not be final  and static
+	 static ABC()
 	{
 		
 	}
@@ -14,3 +14,4 @@ package JavaBasic;
 
 
 }
+*/
