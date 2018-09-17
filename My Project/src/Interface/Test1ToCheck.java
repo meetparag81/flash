@@ -11,8 +11,9 @@ public class Test1ToCheck implements A, B {
 	}
 
 	@Override
-	public void Add()
+	public  int  Add()
 	{
+		return 0;
 		
 	}
 
